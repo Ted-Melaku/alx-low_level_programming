@@ -13,6 +13,8 @@ int main(int argc, char *argv[])
 {
 	int result = 0, num, i, j, k;
 
+	if (argc == 1)
+		printf("0\n");
 	for (i = 1; argc > 1; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
